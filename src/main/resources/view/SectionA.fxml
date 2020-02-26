@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyProject.view.SectionAController">
+   <children>
+      <TextField fx:id="income" layoutX="164.0" layoutY="60.0" text="Income for the day" AnchorPane.topAnchor="60.0" />
+      <Text layoutX="38.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Income for the day:" wrappingWidth="102.703125" AnchorPane.topAnchor="64.0" />
+      <Text layoutX="38.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock cost:" AnchorPane.topAnchor="105.0" />
+      <TextField fx:id="stock" layoutX="164.0" layoutY="101.0" />
+      <Text layoutX="38.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profit:" />
+      <Text fx:id="profit" layoutX="164.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="profitnumber" />
+   </children>
+</AnchorPane>
